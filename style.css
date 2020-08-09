@@ -1,0 +1,155 @@
+        * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #d8cfcf;
+        padding: 50px;
+    }
+    
+    main {
+        width: 500px;
+        margin: auto;
+        background-color: #f3e9e9;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    
+    .cat-image {
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+        margin: 0px auto 10px;
+    }
+    
+    .container {
+        padding: 30px;
+        border-radius: 50px 50px 0px 0px;
+        border-top: solid 2px solid;
+        background-color: white;
+        margin-top: 20px;
+    }
+    
+    .container section {
+        margin: 25px auto;
+    }
+    
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .heart {
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        color: white;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .heart:hover i {
+        font-size: 25px;
+    }
+    /* .hero .store {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+    
+    .attribute {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .attribute div {
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        border: solid 1px #f3e9e9;
+        width: 30%;
+    }
+    
+    .story h3 {
+        margin: 10px 0px;
+    }
+    
+    .story p {
+        line-height: 1.5;
+        text-align: justify;
+    }
+    
+    .profile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .profile .bb {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .profile img {
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        margin: 5px;
+    }
+    
+    .profile button {
+        background-color: #f3e9e9;
+        color: red;
+        border-radius: 100px;
+        padding: 15px 25px;
+        text-align: center;
+        border: none;
+        font-weight: bolder;
+    }
+    
+    .profile button:hover {
+        background-color: red;
+        color: white;
+    }
+    
+    @media screen and (max-width: 600px) {
+        body {
+            font-size: 12px;
+            padding: 25px 15px;
+        }
+        nav {
+            padding: 25px;
+        }
+        main {
+            width: 99%;
+        }
+        .cat-image {
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            border-radius: 200px;
+            margin: 0px auto 10px;
+        }
+        .profile button {
+            padding: 10px;
+        }
